@@ -15,7 +15,20 @@ public class CesarMunoz {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        System.out.println("Hola mundo cruel");
+        //probaremos nuestra solucion
+        //crear un usuario hipotetico
+        Usuario u=new Usuario();
+        //le asignamos valores
+        u.altura=1.68f;
+        u.peso=75f;
+        
+        //Generamos un modelo
+        Imc imc=new Imc();
+        
+        
+        System.out.println("El valor de "+imc.calcular(u));
     }
     
 }
